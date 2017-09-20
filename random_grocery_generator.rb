@@ -55,3 +55,14 @@ coupons.each do |coupon|
 end
 
 puts "Your total is #{checkout(cart: cart, coupons: coupons)}"
+
+
+
+
+class BankAccount
+	attr_accessor :balance, :pin, :account_number, :name
+
+	def initialize(acct)
+		account_number = acct
+	end
+end
